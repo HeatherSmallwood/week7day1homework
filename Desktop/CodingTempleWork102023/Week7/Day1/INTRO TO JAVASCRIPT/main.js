@@ -261,13 +261,10 @@ function findWords(dog_string, dog_names) {
         if (dog_string.toLowerCase().includes(dog_names[i].toLowerCase())) {
             console.log("Matched " + dog_names[i]);
             found = true;
+        }else{
+            console.log("No Match");
         }
-    }
-
-    if (!found) {
-        console.log("No Match");
-    }
-}
+}}
 
 let dog_string = "Hello Max, my name is Dog, and I have purple eyes!";
 let dog_names = ["Max", "HAS", "PuRple", "dog"];
