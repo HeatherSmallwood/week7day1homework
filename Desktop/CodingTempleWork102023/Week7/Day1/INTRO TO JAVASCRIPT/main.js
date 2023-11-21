@@ -311,9 +311,7 @@ console.log(replaceEvens(originalArray));
 // name: Vowel Count
 
 // DESCRIPTION:
-// Return the number (count) of vowels in the given string.
-
-// We will consider a, e, i, o, u as vowels for this Kata (but not y).
+// Return the number (count) of vowels in the given string. We will consider a, e, i, o, u as vowels for this Kata (but not y).
 
 // The input string will only consist of lower case letters and/or spaces.
 //    Python solution:
@@ -323,6 +321,8 @@ console.log(replaceEvens(originalArray));
 //         if char in 'aeiou':
 //             count += 1
 //     return count
+
+
 // Javascript solution
 
 function countVowels(str) {
@@ -346,13 +346,10 @@ console.log(countVowels(inputString));
 
 // Name: You're a square!
 
-// Description: A square of squares
-// You like building blocks. You especially like building blocks that are squares. And what you even like more, is to arrange them into a square of square building blocks!
+// Description: You like building blocks. You especially like building blocks that are squares. And what you even like more, is to arrange them into a square of square building blocks!
 
-// However, sometimes, you can't arrange them into a square. 
-// Instead, you end up with an ordinary rectangle! Those blasted things! 
-// If you just had a way to know, whether you're currently working in vain… Wait! 
-// That's it! You just have to check if your number of building blocks is a perfect square.
+// Notes: However, sometimes, you can't arrange them into a square. Instead, you end up with an ordinary rectangle! Those blasted things! 
+// Notes: If you just had a way to know, whether you're currently working in vain… Wait!  That's it! You just have to check if your number of building blocks is a perfect square.
 
 // Task
 // Given an integral number, determine if it's a square number:
